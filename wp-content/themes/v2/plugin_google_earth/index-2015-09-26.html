@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<style>
+body {color:white; margin:0px}
+</style>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/google_earth.js"></script>
+<!--Day/Night Button-->
+<script type="text/javascript">
+      function addSampleButton(caption, clickHandler) {
+        var btn = document.createElement('input');
+        btn.type = 'button';
+        btn.value = caption;
+        
+        if (btn.attachEvent)
+          btn.attachEvent('onclick', clickHandler);
+        else
+          btn.addEventListener('click', clickHandler, false);
+
+        // add the button to the Sample UI
+        document.getElementById('sample-ui').appendChild(btn);
+      }
+      
+      function addSampleUIHtml(html) {
+        document.getElementById('sample-ui').innerHTML += html;
+      }
+    </script>
+</head>
+<body>
+
+<table width="100%" height="100%">
+	<tr>
+		<td width="100%"><div id="map3d"></div>	
+		</td>
+	<tr>
+</table>
+
+<!--Day/Night Button-->
+<div style="position:absolute; bottom:20px; left:20px;" id="sample-ui"></div>
+
+</body>
+</html> 

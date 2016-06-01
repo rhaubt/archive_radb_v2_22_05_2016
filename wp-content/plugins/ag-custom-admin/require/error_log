@@ -1,0 +1,480 @@
+[28-May-2015 09:40:28 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:28 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:28 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:28 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:28 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:28 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:36 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:36 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:36 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:36 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:36 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:36 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:43 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:43 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:43 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:43 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:43 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:40:43 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:07 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:07 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:07 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:07 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:07 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:07 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:14 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:14 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:14 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:14 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:14 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:41:14 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:43:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:43:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:43:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:43:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:43:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:43:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:44:45 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:44:45 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:44:45 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:44:45 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:44:45 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 09:44:45 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 14:31:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 14:31:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 14:31:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 14:31:13 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 14:31:13 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[28-May-2015 14:31:13 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:46 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:46 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:46 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:46 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:46 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:46 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:13:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:04 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:04 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:04 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:04 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:04 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:04 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:52 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:52 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:52 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:52 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:52 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:14:52 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:20:00 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:20:00 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:20:00 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:20:00 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:20:00 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:20:00 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:21:30 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:21:30 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:21:30 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:21:30 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:21:30 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:21:30 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:32:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:32:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:32:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:32:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:32:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:32:56 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:02 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:02 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:02 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:02 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:02 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:02 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:33:35 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:05 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:05 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:05 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:05 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:05 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:05 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:32 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:32 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:32 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:32 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:32 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 03:40:32 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 04:06:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 04:06:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_text, wp_comments.comment_content
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_text != wp_comments.comment_content
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 04:06:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 04:06:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_author, wp_comments.comment_author
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_author != wp_comments.comment_author
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 04:06:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')
+[29-May-2015 04:06:12 UTC] WordPress database error Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '<>' for query SELECT wp_demon_imagenote.note_ID, wp_demon_imagenote.note_email, wp_comments.comment_author_email
+			FROM wp_demon_imagenote, wp_comments
+			WHERE wp_demon_imagenote.note_email != wp_comments.comment_author_email
+			AND wp_demon_imagenote.note_comment_ID = wp_comments.comment_ID made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/demon-image-annotation/imageannotation.php'), include_once('/plugins/demon-image-annotation/imageannotation-data.php')

@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <title>Test: Stratigraphic Data in 3d</title>
+    <link rel="stylesheet" type="text/css" 
+          href="http://www.x3dom.org/x3dom/release/x3dom.css">
+    </link>
+    <script type="text/javascript" 
+            src="http://www.x3dom.org/x3dom/release/x3dom.js">
+    </script>
+  </head>
+  <body>
+    <h1>Test: Stratigraphic Data in 3d</h1>
+    <p>
+      This is a test for square units visualisation for stratigraphic data obtained from a spreadsheet in 3d.
+    </p>
+    <p>
+    Artefact - purple: position <input value="a , b , c , d" type=""text"></input></br>
+    yellow layer: measurements <input value="a , b , c , d" type=""text"></input></br>
+    green layer: measurements <input value="a , b , c , d" type=""text"></input></br>
+    blue layer: measurements <input value="a , b , c , d" type=""text"></input></br>
+    red layer: measurements <input value="a , b , c , d" type=""text"></input></br>
+    
+    </p>
+    <p>R. Haubt, A. Jalandoni</br>
+    PERAHU, School of Humanities, Griffith University</br>
+    25th June 2015
+    </p>
+    <x3d width="1000px" height="400px">
+  <scene>
+    <transform id="MoveCone" translation="0 0 0">
+    <shape>
+      <appearance>
+        <material diffuseColor='red'  transparency='0.5'></material>  
+      </appearance>
+      <box size="5,5,0.5"></box>
+    </shape>
+    </transform>
+    
+    <transform translation="0 0 0.5" bboxSize='1,1,1'>
+    <shape>
+      <appearance>
+        <material diffuseColor='blue' transparency='0.5'></material>  
+      </appearance>
+      <box size="5,5,0.5"></box>
+    </shape>
+    </transform>
+    
+    <transform translation="0 0 1" bboxSize='1,1,1'>
+    <shape>
+      <appearance>
+        <material diffuseColor='green' transparency='0.5'></material>  
+      </appearance>
+      <box size="5,5,0.5"></box>
+    </shape>
+    </transform>
+    
+            <transform translation="0 0 1.5" bboxSize='1,1,1'>
+    <shape>
+      <appearance>
+        <material diffuseColor='yellow' transparency='0.5'></material>  
+      </appearance>
+      <box size="5,5,0.5"></box>
+    </shape>
+    </transform>
+    
+    <transform translation="0 0 1.5" bboxSize='1,1,1'>
+    <shape>
+      <appearance>
+        <material diffuseColor='purple'></material>  
+      </appearance>
+      <sphere size="2,2,2"></sphere>
+    </shape>
+    </transform>
+    
+    <transform translation="0 0 1.5" bboxSize='1,1,1'>
+    <shape>
+      <appearance>
+        <material diffuseColor='purple'></material>  
+      </appearance>
+      <cone size="1,1,1"></cone>
+    </shape>
+    </transform>
+    
+    
+  </scene>
+</x3d>
+
+<!-- Input type=range id=redrange -->
+<p>Move Red Layer</p>
+					<div>
+						X-Axis <span id="translate-x_v">0</span></br>
+						<input id="translate-x" type="range" min="-2" max="2" value="0" step="0.01" oninput="" onchange="showValue(this.id,this.value)" />
+		
+						<script type="text/javascript">
+							function showValue(item_id,newValue)
+							{
+							document.getElementById(item_id+"_v").innerHTML=newValue;
+							document.getElementById("MoveCone").setAttribute('translation', document.getElementById("translate-x").value+","+document.getElementById("translate-z").value+","+document.getElementById("translate-y").value);
+							document.getElementById("MoveCone").setAttribute('rotation', document.getElementById("rotate-a").value+","+document.getElementById("rotate-b").value+","+document.getElementById("rotate-c").value+","+document.getElementById("rotate-d").value);
+							//console.log(document.getElementById("redrange").value+","+document.getElementById("greenrange").value+","+document.getElementById("bluerange").value);
+							//console.log(item_id+" value: "+newValue);
+							}
+						</script>
+					</div>
+
+<!-- Input type=range id=greenrange -->
+					<div>
+						Z-Axis <span id="translate-z_v">0</span></br> 
+						<input id="translate-z" type="range" min="-2" max="2" value="0" step="0.01" onchange="showValue(this.id,this.value)" />		
+					</div>
+
+<!-- Input type=range id=bluerange -->
+					<div>
+						Y-Axis <span id="translate-y_v">0</span></br>
+						<input id="translate-y" type="range" min="-2" max="2" value="0" step="0.01" onchange="showValue(this.id,this.value)" />		
+					</div>
+
+<p>Rotate Red Layer</p>
+<!-- Input type=range id=greenrange -->
+					<div>
+						a-Axis <span id="rotate-a_v">0</span></br> 
+						<input id="rotate-a" type="range" min="-360" max="360" value="0" step="0.01" onchange="showValue(this.id,this.value)" />		
+					</div>
+
+<!-- Input type=range id=bluerange -->
+					<div>
+						b-Axis <span id="rotate-b_v">0</span></br>
+						<input id="rotate-b" type="range" min="-10" max="10" value="0" step="0.01" onchange="showValue(this.id,this.value)" />		
+					</div>
+					<!-- Input type=range id=greenrange -->
+					<div>
+						c-Axis <span id="rotate-c_v">0</span></br> 
+						<input id="rotate-c" type="range" min="-10" max="10" value="0" step="0.01" onchange="showValue(this.id,this.value)" />		
+					</div>
+
+<!-- Input type=range id=bluerange -->
+					<div>
+						d-Axis <span id="rotate-d_v">0</span></br>
+						<input id="rotate-d" type="range" min="-10" max="10" value="0" step="0.01" onchange="showValue(this.id,this.value)" />		
+					</div>
+
+
+
+					
+  </body>
+</html>

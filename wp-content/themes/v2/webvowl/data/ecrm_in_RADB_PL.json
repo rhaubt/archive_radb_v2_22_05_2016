@@ -1,0 +1,1715 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "en", "radb" ],
+    "iri" : "http://erlangen-crm.org/current/",
+    "version" : "ECRM 160331 / CIDOC-CRM 6.2.1",
+    "rdfsLabel" : [ "Erlangen CRM / OWL" ],
+    "other" : {
+      "comment" : [ {
+        "identifier" : "comment",
+        "language" : "en",
+        "value" : "Changelog: https://github.com/erlangen-crm/ecrm/commits/master",
+        "type" : "label"
+      }, {
+        "identifier" : "comment",
+        "language" : "en",
+        "value" : "Erlangen CRM / OWL - An OWL DL 1.0 implementation of the CIDOC Conceptual Reference Model, based on: Nick Crofts, Martin Doerr, Tony Gill, Stephen Stead, Matthew Stiff (eds.): Definition of the CIDOC Conceptual Reference Model (http://cidoc-crm.org/).\nThis implementation has been originally created by Bernhard Schiemann, Martin Oischinger and Günther Görz at the Friedrich-Alexander-University of Erlangen-Nuremberg, Department of Computer Science, Chair of Computer Science 8 (Artificial Intelligence) in cooperation with the Department of Museum Informatics of the Germanisches Nationalmuseum Nuremberg and the Department of Biodiversity Informatics of the Zoologisches Forschungsmuseum Alexander Koenig Bonn.\nThe Erlangen CRM / OWL implementation of the CIDOC Conceptual Reference Model is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.",
+        "type" : "label"
+      } ]
+    }
+  },
+  "metrics" : {
+    "classCount" : 41,
+    "datatypeCount" : 2,
+    "objectPropertyCount" : 37,
+    "datatypePropertyCount" : 2,
+    "propertyCount" : 39,
+    "nodeCount" : 43,
+    "axiomCount" : 267,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class28",
+    "type" : "externalclass"
+  }, {
+    "id" : "class39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "thing2",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "thing1",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class21",
+    "label" : {
+      "IRI-based" : "E50_Date",
+      "en" : "E50 Date"
+    },
+    "iri" : "http://erlangen-crm.org/current/E50_Date",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises specific forms of E49 Time Appellation.\n\nDates may vary in their degree of precision.\n\nExamples:\n- \"1900\"\n- \"4-4-1959\"\n- \"19-MAR-1922\"\n- \"19640604\"\n\nIn First Order Logic:\nE50(x) ? E49(x)"
+    },
+    "superClasses" : [ "class37" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E50",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class38",
+    "label" : {
+      "IRI-based" : "E51_Contact_Point",
+      "en" : "E51 Contact Point",
+      "radb" : "RAE_0091 email / RAE_0092 Address"
+    },
+    "iri" : "http://erlangen-crm.org/current/E51_Contact_Point",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises identifiers employed, or understood, by communication services to direct communications to an instance of E39 Actor. These include E-mail addresses, telephone numbers, post office boxes, Fax numbers, URLs etc. Most postal addresses can be considered both as instances of E44 Place Appellation and E51 Contact Point. In such cases the subclass E45 Address should be used.\nURLs are addresses used by machines to access another machine through an http request. Since the accessed machine acts on behalf of the E39 Actor providing the machine, URLs are considered as instances of E51 Contact Point to that E39 Actor.\n\nExamples:\n- \"+41 22 418 5571\"\n- \"weasel@paveprime.com\"\n\nIn First Order Logic:\nE51(x) ? E41(x)",
+      "radb" : "Scope note:\nThis class expresses points of contact in the RADB such as email, address and other specified location details"
+    },
+    "subClasses" : [ "class6" ],
+    "superClasses" : [ "class11" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E51",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class40",
+    "label" : {
+      "IRI-based" : "E24_Physical_Man-Made_Thing"
+    },
+    "iri" : "http://erlangen-crm.org/current/E24_Physical_Man-Made_Thing",
+    "subClasses" : [ "class29", "class20" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "E10_Transfer_of_Custody",
+      "en" : "E10 Transfer of Custody"
+    },
+    "iri" : "http://erlangen-crm.org/current/E10_Transfer_of_Custody",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises transfers of physical custody of objects between instances of E39 Actor.\n\nThe recording of the donor and/or recipient is optional. It is possible that in an instance of E10 Transfer of Custody there is either no donor or no recipient. Depending on the circumstances it may describe:\n1. the beginning of custody\n2. the end of custody\n3. the transfer of custody\n4. the receipt of custody from an unknown source\n5. the declared loss of an object\n\nThe distinction between the legal responsibility for custody and the actual physical possession of the object should be expressed using the property P2 has type (is type of). A specific case of transfer of custody is theft. The sense of physical possession requires that the object of custody is in the hands of the keeper at least with a part representative for the whole. The way, in which a representative part is defined, should ensure that it is unambiguous who keeps a part and who the whole and should be consistent with the identity criteria of the kept instance of E18 Physical Thing. For instance, in the case of a set of cutlery we may require the majority of pieces having been in the hands of the actor regardless which individual pieces are kept over time. \n\nThe interpretation of the museum notion of \"accession\" differs between institutions. The CRM therefore models legal ownership and physical custody separately. Institutions will then model their specific notions of accession and deaccession as combinations of these.\n\nExamples:\n- the delivery of the paintings by Secure Deliveries Inc. to the National Gallery\n- the return of Picasso's \"Guernica\" to Madrid's Prado in 1981\n\nIn First Order Logic:\nE10(x) ? E7(x)"
+    },
+    "superClasses" : [ "class7" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E10",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "E36_Visual_Item"
+    },
+    "iri" : "http://erlangen-crm.org/current/E36_Visual_Item",
+    "subClasses" : [ "class26" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "E11_Modification",
+      "en" : "E11 Modification"
+    },
+    "iri" : "http://erlangen-crm.org/current/E11_Modification",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises all instances of E7 Activity that create, alter or change E24 Physical Man-Made Thing.\n\nThis class includes the production of an item from raw materials, and other so far undocumented objects, and the preventive treatment or restoration of an object for conservation.\n\nSince the distinction between modification and production is not always clear, modification is regarded as the more generally applicable concept. This implies that some items may be consumed or destroyed in a Modification, and that others may be produced as a result of it. An event should also be documented using E81 Transformation if it results in the destruction of one or more objects and the simultaneous production of others using parts or material from the originals. In this case, the new items have separate identities.\n\nIf the instance of the E29 Design or Procedure utilized for the modification prescribes the use of specific materials, they should be documented using property P68 foresees use of (use foreseen by): E57 Material of E29 Design or Procedure, rather than via P126 employed (was employed in): E57 Material.\n\nExamples:\n- the construction of the SS Great Britain (E12)\n- the impregnation of the Vasa warship in Stockholm for preservation after 1956\n- the transformation of the Enola Gay into a museum exhibit by the National Air and Space Museum in Washington DC between 1993 and 1995 (E12, E81)\n- the last renewal of the gold coating of the Toshogu shrine in Nikko, Japan\n\nIn First Order Logic:\nE11(x) ? E7(x)"
+    },
+    "superClasses" : [ "class7" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E11",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class34",
+    "label" : {
+      "IRI-based" : "E42_Identifier",
+      "en" : "E42 Identifier",
+      "radb" : "RAE_post_title ID / RAE_0002 ID (other)"
+    },
+    "iri" : "http://erlangen-crm.org/current/E42_Identifier",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises strings or codes assigned to instances of E1 CRM Entity in order to identify them uniquely and permanently within the context of one or more organisations. Such codes are often known as inventory numbers, registration codes, etc. and are typically composed of alphanumeric sequences. The class E42 Identifier is not normally used for machine-generated identifiers used for automated processing unless these are also used by human agents.\n\nExamples:\n- \"MM.GE.195\"\n- \"13.45.1976\"\n- \"OXCMS: 1997.4.1\"\n- ISSN \"0041-5278\"\n- ISRC \"FIFIN8900116\"\n- Shelf mark \"Res 8 P 10\"\n- \"Guillaume de Machaut (1300?-1377)\" [a controlled personal name heading that follows\nthe French rules]\n\nIn First Order Logic:\nE42(x) ? E41(x)",
+      "en" : "Scope note:\nThis class is used in the RADB as a unique identifier for each RADB Collection entry "
+    },
+    "superClasses" : [ "class11" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E42",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class26",
+    "label" : {
+      "IRI-based" : "E38_Image",
+      "en" : "E38 Image",
+      "radb" : "RAE_0248 Feature Image / RAE_0247 Example Image for Class"
+    },
+    "iri" : "http://erlangen-crm.org/current/E38_Image",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises distributions of form, tone and colour that may be found on surfaces such as photos, paintings, prints and sculptures or directly on electronic media.\n\nThe degree to which variations in the distribution of form and colour affect the identity of an instance of E38 Image depends on a given purpose. The original painting of the Mona Lisa in the Louvre may be said to bear the same instance of E38 Image as reproductions in the form of transparencies, postcards, posters or T-shirts, even though they may differ in size and carrier and may vary in tone and colour. The images in a \"spot the difference\" competition are not the same with respect to their context, however similar they may at first appear.\n\nExamples:\n- the front side of all 20 Swiss Frs notes\n- the image depicted on all reproductions of the Mona Lisa\n\nIn First Order Logic:\nE38(x) ? E36(x)",
+      "en" : "Scope note:\nThis class is used for still-image documents such as sketches, photographs"
+    },
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E38",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class33",
+    "label" : {
+      "IRI-based" : "E28_Conceptual_Object"
+    },
+    "iri" : "http://erlangen-crm.org/current/E28_Conceptual_Object",
+    "instances" : 0
+  }, {
+    "id" : "class35",
+    "label" : {
+      "IRI-based" : "E75_Conceptual_Object_Appellation"
+    },
+    "iri" : "http://erlangen-crm.org/current/E75_Conceptual_Object_Appellation",
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "E89_Propositional_Object"
+    },
+    "iri" : "http://erlangen-crm.org/current/E89_Propositional_Object",
+    "subClasses" : [ "class22", "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "E16_Measurement"
+    },
+    "iri" : "http://erlangen-crm.org/current/E16_Measurement",
+    "instances" : 0
+  }, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "E3_Condition_State",
+      "radb" : "RAE_0082 State of Records / RAE_100 Condition"
+    },
+    "iri" : "http://erlangen-crm.org/current/E3_Condition_State",
+    "instances" : 0
+  }, {
+    "id" : "class24",
+    "label" : {
+      "IRI-based" : "E8_Acquisition",
+      "en" : "E8 Acquisition",
+      "radb" : "RAE_0070"
+    },
+    "iri" : "http://erlangen-crm.org/current/E8_Acquisition",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises transfers of legal ownership from one or more instances of E39 Actor to one or more other instances of E39 Actor.\n\nThe class also applies to the establishment or loss of ownership of instances of E18 Physical Thing. It does not, however, imply changes of any other kinds of right. The recording of the donor and/or recipient is optional. It is possible that in an instance of E8 Acquisition there is either no donor or no recipient. Depending on the circumstances, it may describe:\n\n1. the beginning of ownership\n2. the end of ownership\n3. the transfer of ownership\n4. the acquisition from an unknown source\n5. the loss of title due to destruction of the item\n\nIt may also describe events where a collector appropriates legal title, for example by annexation or field collection. The interpretation of the museum notion of \"accession\" differs between institutions. The CRM therefore models legal ownership (E8 Acquisition) and physical custody (E10 Transfer of Custody) separately. Institutions will then model their specific notions of accession and deaccession as combinations of these.\n\nExamples:\n- the collection of a hammer-head shark of the genus Sphyrna (Carchariniformes) XXXtbc by John Steinbeck and Edward Ricketts at Puerto Escondido in the Gulf of Mexico on March 25th, 1940\n- the acquisition of El Greco's \"The Apostles Peter and Paul\" by the State Hermitage in Saint Petersburg\n- the loss of my stuffed chaffinch 'Fringilla coelebs Linnaeus, 1758' due to insect damage last year\n\nIn First Order Logic:\nE8(x) ? E7(x)",
+      "radb" : "Scope note:\nThis class comprises transfers of legal ownership in the RADB"
+    },
+    "superClasses" : [ "class7" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E8",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "E78_Collection",
+      "en" : "E78 Collection",
+      "radb" : "RAE_0003 Title"
+    },
+    "iri" : "http://erlangen-crm.org/current/E78_Collection",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises aggregations of instances of E18 Physical Thing that are assembled and maintained (\"curated\" and \"preserved,\" in museological terminology) by one or more instances of E39 Actor over time for a specific purpose and audience, and according to a particular collection development plan.\n\nItems may be added or removed from an E78 Collection in pursuit of this plan. This class should not be confused with the E39 Actor maintaining the E78 Collection often referred to with the name of the E78 Collection (e.g. \"The Wallace Collection decided…\").\n\nCollective objects in the general sense, like a tomb full of gifts, a folder with stamps or a set of chessmen, should be documented as instances of E19 Physical Object, and not as instances of E78 Collection. This is because they form wholes either because they are physically bound together or because they are kept together for their functionality.\n\nExamples:\n- The John Clayton Herbarium\n- the Wallace Collection\n- Mikael Heggelund Foslie's coralline red algae Herbarium at Museum of Natural History and Archaeology, Trondheim, Norway\n\nIn First Order Logic:\nE78(x) ? E24(x)",
+      "en" : "Scope note:\nThis class comprises aggregations of things with the RADB Collection"
+    },
+    "superClasses" : [ "class40" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E78",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class36",
+    "label" : {
+      "IRI-based" : "E26_Physical_Feature",
+      "en" : "E26 Physical Feature"
+    },
+    "iri" : "http://erlangen-crm.org/current/E26_Physical_Feature",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises identifiable features that are physically attached in an integral way to particular physical objects.\n\nInstances of E26 Physical Feature share many of the attributes of instances of E19 Physical Object. They may have a one-, two- or three-dimensional geometric extent, but there are no natural borders that separate them completely in an objective way from the carrier objects. For example, a doorway is a feature but the door itself, being attached by hinges, is not.\n\nInstances of E26 Physical Feature can be features in a narrower sense, such as scratches, holes, reliefs, surface colours, reflection zones in an opal crystal or a density change in a piece of wood. In the wider sense, they are portions of particular objects with partially imaginary borders, such as the core of the Earth, an area of property on the surface of the Earth, a landscape or the head of a contiguous marble statue. They can be measured and dated, and it is sometimes possible to state who or what is or was responsible for them. They cannot be separated from the carrier object, but a segment of the carrier object may be identified (or sometimes removed) carrying the complete feature.\n\nThis definition coincides with the definition of \"fiat objects\" (Smith & Varzi, 2000, pp.401-420), with the exception of aggregates of \"bona fide objects\".\n\nExamples:\n- the temple in Abu Simbel before its removal, which was carved out of solid rock\n- Albrecht Duerer's signature on his painting of Charles the Great\n- the damage to the nose of the Great Sphinx in Giza\n- Michael Jackson's nose prior to plastic surgery\n\nIn First Order Logic:\nE26(x) ? E18(x)"
+    },
+    "subClasses" : [ "class29", "class15" ],
+    "superClasses" : [ "class31" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E26",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class37",
+    "label" : {
+      "IRI-based" : "E49_Time_Appellation"
+    },
+    "iri" : "http://erlangen-crm.org/current/E49_Time_Appellation",
+    "subClasses" : [ "class21" ],
+    "instances" : 0
+  }, {
+    "id" : "class30",
+    "label" : {
+      "IRI-based" : "E19_Physical_Object",
+      "en" : "E19 Physical Object"
+    },
+    "iri" : "http://erlangen-crm.org/current/E19_Physical_Object",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises items of a material nature that are units for documentation and have physical boundaries that separate them completely in an objective way from other objects.\n\nThe class also includes all aggregates of objects made for functional purposes of whatever kind, independent of physical coherence, such as a set of chessmen. Typically, instances of E19 Physical Object can be moved (if not too heavy).\n\nIn some contexts, such objects, except for aggregates, are also called \"bona fide objects\" (Smith & Varzi, 2000, pp.401-420), i.e. naturally defined objects.\n\nThe decision as to what is documented as a complete item, rather than by its parts or components, may be a purely administrative decision or may be a result of the order in which the item was acquired.\n\nExamples:\n- John Smith\n- Aphrodite of Milos\n- the Palace of Knossos\n- the Cullinan diamond\n- Apollo 13 at the time of launch\n\nIn First Order Logic:\nE19(x) ? E18(x)"
+    },
+    "superClasses" : [ "class31" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E19",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "E27_Site",
+      "en" : "E27 Site"
+    },
+    "iri" : "http://erlangen-crm.org/current/E27_Site",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises pieces of land or sea floor. \n\nIn contrast to the purely geometric notion of E53 Place, this class describes constellations of matter on the surface of the Earth or other celestial body, which can be represented by photographs, paintings and maps. \n\nInstances of E27 Site are composed of relatively immobile material items and features in a particular configuration at a particular location.\n\nExamples:\n- the Amazon river basin\n- Knossos\n- the Apollo 11 landing site\n- Heathrow Airport\n- the submerged harbour of the Minoan settlement of Gournia, Crete\n\nIn First Order Logic:\nE27(x)? E26(x)"
+    },
+    "superClasses" : [ "class36" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E27",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "E70_Thing"
+    },
+    "iri" : "http://erlangen-crm.org/current/E70_Thing",
+    "subClasses" : [ "class16" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "E1_CRM_Entity",
+      "en" : "E1 CRM Entity",
+      "radb" : "RADB"
+    },
+    "iri" : "http://erlangen-crm.org/current/E1_CRM_Entity",
+    "comment" : {
+      "en" : "Scope note:\t\nThis class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model. \n\nIt is an abstract concept providing for three general properties:\n1.Identification by name or appellation, and in particular by a preferred identifier\n2.Classification by type, allowing further refinement of the specific subclass an instance belongs to \n3.Attachment of free text for the expression of anything not captured by formal properties\n\nWith the exception of E59 Primitive Value, all other classes within the CRM are directly or indirectly specialisations of E1 CRM Entity. \n\nExamples:\n?the earthquake in Lisbon 1755 (E5)\n\nIn First Order Logic: \nE1(x)",
+      "radb" : "Scope note:\t\nThis class comprises all things in the RADB Universe"
+    },
+    "subClasses" : [ "class27", "class13" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E1",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "E73_Information_Object",
+      "en" : "E73 Information Object",
+      "radb" : "RAE_0241 Media Files / RAE_0208_r Image/ RAE_0212_r YouTube / RAE_0219_r 123DCatch / RAE_0223_r x3d / RAE_0227_r kml / RAE_242_r Virtual Reality"
+    },
+    "iri" : "http://erlangen-crm.org/current/E73_Information_Object",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises identifiable immaterial items, such as a poems, jokes, data sets, images, texts, multimedia objects, procedural prescriptions, computer program code, algorithm or mathematical formulae, that have an objectively recognizable structure and are documented as single units.\nThe encoding structure known as a \"named graph\" also falls under this class, so that each \"named graph\" is an instance of an E73 Information Object.\n\nAn E73 Information Object does not depend on a specific physical carrier, which can include human memory, and it can exist on one or more carriers simultaneously.\nInstances of E73 Information Object of a linguistic nature should be declared as instances of the E33 Linguistic Object subclass. Instances of E73 Information Object of a documentary nature should be declared as instances of the E31 Document subclass. Conceptual items such as types and classes are not instances of E73 Information Object, nor are ideas without a reproducible expression.\n\nExamples:\n- image BM000038850.JPG from the Clayton Herbarium in London\n- E. A. Poe's \"The Raven\"\n- the movie \"The Seven Samurai\" by Akira Kurosawa\n- the Maxwell Equations\n- The Getty AAT as published as Linked Open Data, accessed 1/10/2014\n\nIn First Order Logic: \nE73(x) ? E89(x)  \nE73(x) ? E90(x)",
+      "radb" : "Scope note:\nThis class comprises identifiable immaterial items, such as images, videos, 3D models and Virtual Reality elements"
+    },
+    "subClasses" : [ "class8" ],
+    "superClasses" : [ "class5", "class1" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E73",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class29",
+    "label" : {
+      "IRI-based" : "E25_Man-Made_Feature",
+      "en" : "E25 Man-Made Feature",
+      "radb" : "RAE_0170 Type / RAE_0180 Style"
+    },
+    "iri" : "http://erlangen-crm.org/current/E25_Man-Made_Feature",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises physical features that are purposely created by human activity, such as scratches, artificial caves, artificial water channels, etc.\n\nNo assumptions are made as to the extent of modification required to justify regarding a feature as man-made. For example, rock art or even \"cup and ring\" carvings on bedrock a regarded as types of E25 Man-Made Feature.\n\nExamples:\n- the Manchester Ship Canal\n- Michael Jackson's nose following plastic surgery\n\nIn First Order Logic:\nE25(x) ? E26(x)\nE25(x) ? E24(x)",
+      "radb" : "Scope note:\nThis class comprises physical features that are purposely created by human activity and is described in rock-art types of rock-art such as painting, engraving, petroglyph but also styles such as x-ray, outline, fill-in "
+    },
+    "superClasses" : [ "class40", "class36" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E25",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "E54_Dimension",
+      "en" : "E54 Dimension"
+    },
+    "iri" : "http://erlangen-crm.org/current/E54_Dimension",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises quantifiable properties that can be measured by some calibrated means and can be approximated by values, i.e. points or regions in a mathematical or conceptual space, such as natural or real numbers, RGB values etc.\n\nAn instance of E54 Dimension represents the true quantity, independent from its numerical approximation, e.g. in inches or in cm. The properties of the class E54 Dimension allow for expressing the numerical approximation of the values of an instance of E54 Dimension. If the true values belong to a non-discrete space, such as spatial distances, it is recommended to record them as approximations by intervals or regions of indeterminacy enclosing the assumed true values. For instance, a length of 5 cm may be recorded as 4.5-5.5 cm, according to the precision of the respective observation. Note, that interoperability of values described in different units depends critically on the representation as value regions.\n\nNumerical approximations in archaic instances of E58 Measurement Unit used in historical records should be preserved. Equivalents corresponding to current knowledge should be recorded as additional instances of E54 Dimension as appropriate.\n\nExamples:\n- currency: £26.00\n- length: 3.9-4.1 cm\n- diameter: 26 mm\n- weight: 150 lbs\n- density: 0.85 gm/cc\n- luminescence: 56 ISO lumens\n- tin content: 0.46 %\n- taille au garot: 5 hands\n- calibrated C14 date: 2460-2720 years, etc\n\nIn First Order Logic:\nE54(x) ? E1(x)"
+    },
+    "superClasses" : [ "class12" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E54",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "E72_Legal_Object"
+    },
+    "iri" : "http://erlangen-crm.org/current/E72_Legal_Object",
+    "instances" : 0
+  }, {
+    "id" : "class28",
+    "label" : {
+      "IRI-based" : "Error1"
+    },
+    "iri" : "http://org.semanticweb.owlapi/error#Error1",
+    "attributes" : [ "external" ],
+    "subClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class39",
+    "label" : {
+      "IRI-based" : "E21_Person",
+      "en" : "E21 Person"
+    },
+    "iri" : "http://erlangen-crm.org/current/E21_Person",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises real persons who live or are assumed to have lived.\n\nLegendary figures that may have existed, such as Ulysses and King Arthur, fall into this class if the documentation refers to them as historical figures. In cases where doubt exists as to whether several persons are in fact identical, multiple instances can be created and linked to indicate their relationship. The CRM does not propose a specific form to support reasoning about possible identity.\n\nExamples:\n- Tut-Ankh-Amun\n- Nelson Mandela\n\nIn First Order Logic:\nE21(x) ? E20(x)\nE21(x) ? E39(x)"
+    },
+    "superClasses" : [ "class3", "class18" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E21",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "E90_Symbolic_Object"
+    },
+    "iri" : "http://erlangen-crm.org/current/E90_Symbolic_Object",
+    "subClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "E7_Activity"
+    },
+    "iri" : "http://erlangen-crm.org/current/E7_Activity",
+    "subClasses" : [ "class9", "class14", "class24" ],
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "E39_Actor",
+      "en" : "E39 Actor"
+    },
+    "iri" : "http://erlangen-crm.org/current/E39_Actor",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible.\n\nThe CRM does not attempt to model the inadvertent actions of such actors. Individual people should be documented as instances of E21 Person, whereas groups should be documented as instances of either E74 Group or its subclass E40 Legal Body.\n\nExamples:\n- London and Continental Railways (E40)\n- the Governor of the Bank of England in 1975 (E21)\n- Sir Ian McKellan (E21)\n\nIn First Order Logic:\nE39(x) ? E77(x)"
+    },
+    "subClasses" : [ "class39" ],
+    "superClasses" : [ "class25" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E39",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "E30_Right",
+      "en" : "E30 Right"
+    },
+    "iri" : "http://erlangen-crm.org/current/E30_Right",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises legal privileges concerning material and immaterial things or their derivatives.\n\nThese include reproduction and property rights.\n\nExamples:\n- Copyright held by ISO on ISO/CD 21127\n- ownership of the \"Mona Lisa\" by the Louvre\n\nIn First Order Logic:\nE30(x) ? E89(x"
+    },
+    "superClasses" : [ "class5" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E30",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class32",
+    "label" : {
+      "IRI-based" : "E47_Spatial_Coordinates",
+      "en" : "E47 Spatial Coordinates"
+    },
+    "iri" : "http://erlangen-crm.org/current/E47_Spatial_Coordinates",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises the textual or numeric information required to locate specific instances of E53 Place within schemes of spatial identification.\n\nCoordinates are a specific form of E44 Place Appellation, that is, a means of referring to a particular E53 Place. Coordinates are not restricted to longitude, latitude and altitude. Any regular system of reference that maps onto an E19 Physical Object can be used to generate coordinates.\n\nExamples:\n- \"6°5'29\"N 45°12'13\"W\"\n- \"Black queen's bishop 4\" [chess coordinate].\n\nIn First Order Logic:\nE47(x) ? E44(x)"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E47",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "E20_Biological_Object"
+    },
+    "iri" : "http://erlangen-crm.org/current/E20_Biological_Object",
+    "subClasses" : [ "class39" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "E71_Man-Made_Thing",
+      "en" : "E71 Man-Made Thing"
+    },
+    "iri" : "http://erlangen-crm.org/current/E71_Man-Made_Thing",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises discrete, identifiable man-made items that are documented as single units.\n\nThese items are either intellectual products or man-made physical things, and are characterized by relative stability. They may for instance have a solid physical form, an electronic encoding, or they may be logical concepts or structures.\n\nExamples:\n- Beethoven's 5th Symphony (E73)\n- Michelangelo's David\n- Einstein's Theory of General Relativity (E73)\n- the taxon 'Fringilla coelebs Linnaeus, 1758' (E55)\n\nIn First Order Logic:\nE71(x) ? E70(x)"
+    },
+    "superClasses" : [ "class4" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E71",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "E45_Address",
+      "en" : "E45 Address"
+    },
+    "iri" : "http://erlangen-crm.org/current/E45_Address",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises identifiers expressed in coding systems for places, such as postal addresses used for mailing.\n\nAn E45 Address can be considered both as the name of an E53 Place and as an E51 Contact Point for an E39 Actor. This dual aspect is reflected in the multiple inheritance. However, some forms of mailing addresses, such as a postal box, are only instances of E51 Contact Point, since they do not identify any particular Place. These should not be documented as instances of E45 Address.\n\nExamples:\n- \"1-29-3 Otsuka, Bunkyo-ku, Tokyo, 121, Japan\"\n- \"Rue David Dufour 5, CH-1211, Genève\"\n\nIn First Order Logic:\nE45(x) ? E44(x)\nE45(x) ? E51(x)"
+    },
+    "superClasses" : [ "class38" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E45",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "E31_Document",
+      "en" : "E31 Document"
+    },
+    "iri" : "http://erlangen-crm.org/current/E31_Document",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises identifiable immaterial items that make propositions about reality.\nThese propositions may be expressed in text, graphics, images, audiograms, videograms or by other similar means. Documentation databases are regarded as a special case of E31 Document. This class should not be confused with the term \"document\" in Information Technology, which is compatible with E73 Information Object.\n\nExamples:\n- the Encyclopaedia Britannica (E32)\n- The image content of the photo of the Allied Leaders at Yalta published by UPI, 1945 (E38)\n- the Doomsday Book\n\nIn First Order Logic:\nE31(x) ? E73(x)"
+    },
+    "superClasses" : [ "class19", "class28" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E31",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class27",
+    "label" : {
+      "IRI-based" : "E53_Place",
+      "en" : "E53 Place"
+    },
+    "iri" : "http://erlangen-crm.org/current/E53_Place",
+    "comment" : {
+      "en" : "Scope note:\nThis class comprises extents in space, in particular on the surface of the earth, in the pure sense of physics: independent from temporal phenomena and matter.\n\nThe instances of E53 Place are usually determined by reference to the position of \"immobile\" objects such as buildings, cities, mountains, rivers, or dedicated geodetic marks. A Place can be determined by combining a frame of reference and a location with respect to this frame. It may be identified by one or more instances of E44 Place Appellation.\n\nIt is sometimes argued that instances of E53 Place are best identified by global coordinates or absolute reference systems. However, relative references are often more relevant in the context of cultural documentation and tend to be more precise. In particular, we are often interested in position in relation to large, mobile objects, such as ships. For example, the Place at which Nelson died is known with reference to a large mobile object – H.M.S Victory. A resolution of this Place in terms of absolute coordinates would require knowledge of the movements of the vessel and the precise time of death, either of which may be revised, and the result would lack historical and cultural relevance.\n\nAny object can serve as a frame of reference for E53 Place determination. The model foresees the notion of a \"section\" of an E19 Physical Object as a valid E53 Place determination.\n\nExamples:\n- the extent of the UK in the year 2003\n- the position of the hallmark on the inside of my wedding ring\n- the place referred to in the phrase: \"Fish collected at three miles north of the confluence of the Arve and the Rhone\"\n- here -> <-\n\nIn First Order Logic:\nE53(x) ? E1(x)"
+    },
+    "superClasses" : [ "class12" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "E53",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class31",
+    "label" : {
+      "IRI-based" : "E18_Physical_Thing"
+    },
+    "iri" : "http://erlangen-crm.org/current/E18_Physical_Thing",
+    "subClasses" : [ "class30", "class36" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "E41_Appellation"
+    },
+    "iri" : "http://erlangen-crm.org/current/E41_Appellation",
+    "subClasses" : [ "class34", "class38" ],
+    "instances" : 0
+  }, {
+    "id" : "class25",
+    "label" : {
+      "IRI-based" : "E77_Persistent_Item"
+    },
+    "iri" : "http://erlangen-crm.org/current/E77_Persistent_Item",
+    "subClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "thing2",
+    "label" : {
+      "undefined" : "Thing"
+    },
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "instances" : 0
+  }, {
+    "id" : "thing1",
+    "label" : {
+      "undefined" : "Thing"
+    },
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "instances" : 0
+  } ],
+  "datatype" : [ {
+    "id" : "literal2",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "literal1",
+    "type" : "rdfs:Literal"
+  } ],
+  "datatypeAttribute" : [ {
+    "id" : "literal2",
+    "label" : {
+      "IRI-based" : "Literal"
+    },
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  }, {
+    "id" : "literal1",
+    "label" : {
+      "IRI-based" : "Literal"
+    },
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "property" : [ {
+    "id" : "property41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property60",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property41",
+    "label" : {
+      "IRI-based" : "P14_carried_out_by"
+    },
+    "iri" : "http://erlangen-crm.org/current/P14_carried_out_by",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "subproperty" : [ "property36", "property40" ]
+  }, {
+    "id" : "property42",
+    "label" : {
+      "IRI-based" : "P1i_identifies"
+    },
+    "iri" : "http://erlangen-crm.org/current/P1i_identifies",
+    "domain" : "class11",
+    "range" : "class12",
+    "inverse" : "property56",
+    "subproperty" : [ "property34" ]
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "P109i_is_current_or_former_curator_of",
+      "en" : "P109 is current or former curator of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P109i_is_current_or_former_curator_of",
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P109i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class18",
+    "range" : "class20",
+    "inverse" : "property57",
+    "superproperty" : [ "property53" ]
+  }, {
+    "id" : "property49",
+    "label" : {
+      "IRI-based" : "P55_has_current_location"
+    },
+    "iri" : "http://erlangen-crm.org/current/P55_has_current_location",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "maxCardinality" : 1
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class29",
+    "range" : "class40"
+  }, {
+    "id" : "property63",
+    "label" : {
+      "IRI-based" : "P57_has_number_of_parts",
+      "en" : "P57 has number of parts"
+    },
+    "iri" : "http://erlangen-crm.org/current/P57_has_number_of_parts",
+    "comment" : {
+      "en" : "Scope note:\nThis property documents the E60 Number of parts of which an instance of E19 Physical Object is composed.\n\nThis may be used as a method of checking inventory counts with regard to aggregate or collective objects. What constitutes a part or component depends on the context and requirements of the documentation. Normally, the parts documented in this way would not be considered as worthy of individual attention.\n\nFor a more complete description, objects may be decomposed into their components and constituents using P46 is composed of (forms parts of) and P45 consists of (is incorporated in). This allows each element to be described individually.\n\nExamples:\n- chess set 233 (E22) has number of parts 33 (E60)\n\nIn First Order Logic:\nP57(x,y) ? E19(x)\nP57(x,y) ? E60(y)"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P57",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class30",
+    "range" : "literal1"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class38"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class26",
+    "range" : "class10"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class40"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class25"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "P141i_was_assigned_by"
+    },
+    "iri" : "http://erlangen-crm.org/current/P141i_was_assigned_by",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "subproperty" : [ "property59" ]
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class36",
+    "range" : "class31"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class30",
+    "range" : "class31"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class38",
+    "range" : "class11"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class34",
+    "range" : "class11"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "P149_is_identified_by"
+    },
+    "iri" : "http://erlangen-crm.org/current/P149_is_identified_by",
+    "domain" : "class33",
+    "range" : "class35",
+    "inverse" : "property34"
+  }, {
+    "id" : "property46",
+    "label" : {
+      "IRI-based" : "P24i_changed_ownership_through",
+      "en" : "P24 changed ownership through"
+    },
+    "iri" : "http://erlangen-crm.org/current/P24i_changed_ownership_through",
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P24i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class31",
+    "range" : "class24",
+    "inverse" : "property54"
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class39",
+    "range" : "class3"
+  }, {
+    "id" : "property33",
+    "label" : {
+      "IRI-based" : "P152_has_parent"
+    },
+    "iri" : "http://erlangen-crm.org/current/P152_has_parent",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "minCardinality" : 2
+  }, {
+    "id" : "property59",
+    "label" : {
+      "IRI-based" : "P40i_was_observed_in",
+      "en" : "P40 was observed in"
+    },
+    "iri" : "http://erlangen-crm.org/current/P40i_was_observed_in",
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P40i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class13",
+    "range" : "class2",
+    "inverse" : "property62",
+    "superproperty" : [ "property29" ]
+  }, {
+    "id" : "property34",
+    "label" : {
+      "IRI-based" : "P149i_identifies",
+      "en" : "P149 identifies"
+    },
+    "iri" : "http://erlangen-crm.org/current/P149i_identifies",
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P149i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class35",
+    "range" : "class33",
+    "inverse" : "property31",
+    "superproperty" : [ "property42" ]
+  }, {
+    "id" : "property35",
+    "label" : {
+      "IRI-based" : "P14i_performed"
+    },
+    "iri" : "http://erlangen-crm.org/current/P14i_performed",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "subproperty" : [ "property47", "property60" ]
+  }, {
+    "id" : "property55",
+    "label" : {
+      "IRI-based" : "P48_has_preferred_identifier"
+    },
+    "iri" : "http://erlangen-crm.org/current/P48_has_preferred_identifier",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "maxCardinality" : 1
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "P22_transferred_title_to",
+      "en" : "P22 transferred title to"
+    },
+    "iri" : "http://erlangen-crm.org/current/P22_transferred_title_to",
+    "comment" : {
+      "en" : "Scope note:\nThis property identifies the E39 Actor that acquires the legal ownership of an object as a result of an E8 Acquisition.\n\nThe property will typically describe an Actor purchasing or otherwise acquiring an object from another Actor. However, title may also be acquired, without any corresponding loss of title by another Actor, through legal fieldwork such as hunting, shooting or fishing.\n\nIn reality the title is either transferred to or from someone, or both.\n\nExamples:\n- acquisition of the Amoudrouz collection by the Geneva Ethnography Museum (E8) transferred title to Geneva Ethnography Museum (E74)\n\nIn First Order Logic:\nP22(x,y) ? E8(x)\nP22(x,y) ? E39(y)\nP22 (x,y) ? P14(x,y)"
+    },
+    "attributes" : [ "functional" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P22",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class24",
+    "range" : "thing2",
+    "inverse" : "property47",
+    "superproperty" : [ "property41" ]
+  }, {
+    "id" : "property30",
+    "label" : {
+      "IRI-based" : "P148_has_component"
+    },
+    "iri" : "http://erlangen-crm.org/current/P148_has_component",
+    "domain" : "class5",
+    "range" : "class5",
+    "inverse" : "property28"
+  }, {
+    "id" : "property56",
+    "label" : {
+      "IRI-based" : "P1_is_identified_by",
+      "en" : "P1 is identified by"
+    },
+    "iri" : "http://erlangen-crm.org/current/P1_is_identified_by",
+    "comment" : {
+      "en" : "Scope note:\nThis property describes the naming or identification of any real world item by a name or any other identifier.\n\nThis property is intended for identifiers in general use, which form part of the world the model intends to describe, and not merely for internal database identifiers which are specific to a technical system, unless these latter also have a more general use outside the technical context. This property includes in particular identification by mathematical expressions such as coordinate systems used for the identification of instances of E53 Place. The property does not reveal anything about when, where and by whom this identifier was used. A more detailed representation can be made using the fully developed (i.e. indirect) path through E15 Identifier Assignment.\n\nExamples:\n- the capital of Italy (E53) is identified by \"Rome\" (E48)\n- text 25014-32 (E33) is identified by \"The Decline and Fall of the Roman Empire\" (E35)\n\nIn First Order Logic:\nP1(x,y) ? E1(x)\nP1(x,y) ? E41(y)"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P1",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class12",
+    "range" : "class11",
+    "inverse" : "property42"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "P76i_provides_access_to"
+    },
+    "iri" : "http://erlangen-crm.org/current/P76i_provides_access_to",
+    "domain" : "thing1",
+    "range" : "thing1"
+  }, {
+    "id" : "property48",
+    "label" : {
+      "IRI-based" : "P91_has_unit"
+    },
+    "iri" : "http://erlangen-crm.org/current/P91_has_unit",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "cardinality" : 1
+  }, {
+    "id" : "property52",
+    "label" : {
+      "IRI-based" : "P104i_applies_to"
+    },
+    "iri" : "http://erlangen-crm.org/current/P104i_applies_to",
+    "domain" : "thing1",
+    "range" : "thing1"
+  }, {
+    "id" : "property62",
+    "label" : {
+      "IRI-based" : "P40_observed_dimension",
+      "en" : "P40 observed dimension"
+    },
+    "iri" : "http://erlangen-crm.org/current/P40_observed_dimension",
+    "comment" : {
+      "en" : "Scope note:\nThis property records the dimension that was observed in an E16 Measurement Event.\nE54 Dimension can be any quantifiable aspect of E70 Thing. Weight, image colour depth and monetary value are dimensions in this sense. One measurement activity may determine more than one dimension of one object.\nDimensions may be determined either by direct observation or using recorded evidence. In the latter case the measured Thing does not need to be present or extant.\nEven though knowledge of the value of a dimension requires measurement, the dimension may be an object of discourse prior to, or even without, any measurement being made.\n\nExamples:\n- 31 August 1997 measurement of height of silver cup 232 (E16) observed dimension silver cup 232 height (E54) has unit mm (E58), has value 224 (E60)\n\nIn First Order Logic:\nP40(x,y) ? E16(x)\nP40(x,y)? E54(y)\nP40(x,y) ? P141(x,y)"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P40",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class2",
+    "range" : "class13",
+    "inverse" : "property59",
+    "superproperty" : [ "property61" ]
+  }, {
+    "id" : "property44",
+    "label" : {
+      "IRI-based" : "P54_has_current_permanent_location"
+    },
+    "iri" : "http://erlangen-crm.org/current/P54_has_current_permanent_location",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "maxCardinality" : 1
+  }, {
+    "id" : "property40",
+    "label" : {
+      "IRI-based" : "P23_transferred_title_from",
+      "en" : "P23 transferred title from"
+    },
+    "iri" : "http://erlangen-crm.org/current/P23_transferred_title_from",
+    "comment" : {
+      "en" : "Scope note:\nThis property identifies the E39 Actor or Actors who relinquish legal ownership as the result of an E8 Acquisition.\n\nThe property will typically be used to describe a person donating or selling an object to a museum. In reality title is either transferred to or from someone, or both.\n\nExamples:\n- acquisition of the Amoudrouz collection by the Geneva Ethnographic Museum (E8) transferred title from Heirs of Amoudrouz (E74)\n\nIn First Order Logic:\nP23(x,y) ? E8(x)\nP23(x,y) ? E39(y)\nP23 (x,y) ? P14(x,y)"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P23",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class24",
+    "range" : "thing2",
+    "inverse" : "property60",
+    "superproperty" : [ "property41" ]
+  }, {
+    "id" : "property57",
+    "label" : {
+      "IRI-based" : "P109_has_current_or_former_curator"
+    },
+    "iri" : "http://erlangen-crm.org/current/P109_has_current_or_former_curator",
+    "domain" : "class20",
+    "range" : "class18",
+    "inverse" : "property32"
+  }, {
+    "id" : "property54",
+    "label" : {
+      "IRI-based" : "P24_transferred_title_of",
+      "en" : "P24 transferred title of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P24_transferred_title_of",
+    "comment" : {
+      "en" : "Scope note:\nThis property identifies the E18 Physical Thing or things involved in an E8 Acquisition.\n\nIn reality, an acquisition must refer to at least one transferred item.\n\nExamples:\n- acquisition of the Amoudrouz collection by the Geneva Ethnographic Museum (E8) transferred title of Amoudrouz Collection (E78)\n\nIn First Order Logic:\nP24(x,y) ? E8(x)\nP24(x,y) ? E18(y)"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P24",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class24",
+    "range" : "class31",
+    "inverse" : "property46",
+    "minCardinality" : 1
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "P31_has_modified"
+    },
+    "iri" : "http://erlangen-crm.org/current/P31_has_modified",
+    "domain" : "thing1",
+    "range" : "thing1"
+  }, {
+    "id" : "property47",
+    "label" : {
+      "IRI-based" : "P22i_acquired_title_through",
+      "en" : "P22 acquired title through"
+    },
+    "iri" : "http://erlangen-crm.org/current/P22i_acquired_title_through",
+    "attributes" : [ "inverse functional" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P22i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "thing2",
+    "range" : "class24",
+    "inverse" : "property36",
+    "superproperty" : [ "property35" ]
+  }, {
+    "id" : "property61",
+    "label" : {
+      "IRI-based" : "P141_assigned"
+    },
+    "iri" : "http://erlangen-crm.org/current/P141_assigned",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "subproperty" : [ "property62" ]
+  }, {
+    "id" : "property58",
+    "label" : {
+      "IRI-based" : "P56i_is_found_on"
+    },
+    "iri" : "http://erlangen-crm.org/current/P56i_is_found_on",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "minCardinality" : 1
+  }, {
+    "id" : "property51",
+    "label" : {
+      "IRI-based" : "P44_has_condition",
+      "en" : "P44 has condition"
+    },
+    "iri" : "http://erlangen-crm.org/current/P44_has_condition",
+    "comment" : {
+      "en" : "Scope note:\nThis property records an E3 Condition State for some E18 Physical Thing.\n\nIt is a shortcut of the more fully developed path from E18 Physical Thing through P34 concerned (was assessed by), E14 Condition Assessment P35 has identified (was identified by) to E3 Condition State. It offers no information about how and when the E3 Condition State was established, nor by whom.\n\nAn instance of Condition State is specific to an instance of Physical Thing.\n\nExamples:\n- silver cup 232 (E22) has condition oxidation traces were present in 1997 (E3) has type oxidation traces (E55)\n\nIn First Order Logic:\nP44(x,y) ? E18(x)\nP44(x,y) ? E3(y)"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P44",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class31",
+    "range" : "class23",
+    "inverse" : "property26"
+  }, {
+    "id" : "property53",
+    "label" : {
+      "IRI-based" : "P49i_is_former_or_current_keeper_of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P49i_is_former_or_current_keeper_of",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "subproperty" : [ "property32" ]
+  }, {
+    "id" : "property64",
+    "label" : {
+      "IRI-based" : "P3_has_note",
+      "en" : "P3 has note"
+    },
+    "iri" : "http://erlangen-crm.org/current/P3_has_note",
+    "comment" : {
+      "en" : "Scope note:\nThis property is a container for all informal descriptions about an object that have not been expressed in terms of CRM constructs.\n\nIn particular it captures the characterisation of the item itself, its internal structures, appearance etc.\nLike property P2 has type (is type of), this property is a consequence of the restricted focus of the CRM. The aim is not to capture, in a structured form, everything that can be said about an item; indeed, the CRM formalism is not regarded as sufficient to express everything that can be said. Good practice requires use of distinct note fields for different aspects of a characterisation. The P3.1 has type property of P3 has note allows differentiation of specific notes, e.g. \"construction\", \"decoration\" etc.\nAn item may have many notes, but a note is attached to a specific item.\n\nExamples:\n- coffee mug - OXCMS:1983.1.1 (E19) has note \"chipped at edge of handle\" (E62) has type\nCondition (E55)\n\nIn First Order Logic:\nP3(x,y) ? E1(x)\nP3(x,y) ? E62(y)\nP3(x,y,z) ? [P3(x,y) ? E55(z)]\n\nProperties: P3.1 has type: E55 Type"
+    },
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P3",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class12",
+    "range" : "literal2"
+  }, {
+    "id" : "property45",
+    "label" : {
+      "IRI-based" : "P59i_is_located_on_or_within"
+    },
+    "iri" : "http://erlangen-crm.org/current/P59i_is_located_on_or_within",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "maxCardinality" : 1
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class37"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "P44i_is_condition_of",
+      "en" : "P44 is condition of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P44i_is_condition_of",
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P44i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class23",
+    "range" : "class31",
+    "inverse" : "property51"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class5"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class5"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class36"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class29",
+    "range" : "class36"
+  }, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class39",
+    "range" : "class18"
+  }, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class24",
+    "range" : "class7"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class1"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class28"
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class7"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class7"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "P148i_is_component_of",
+      "en" : "P148 is component of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P148i_is_component_of",
+    "attributes" : [ "transitive" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P148i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class5",
+    "range" : "class5",
+    "inverse" : "property30"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class27",
+    "range" : "class12"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "P98i_was_born"
+    },
+    "iri" : "http://erlangen-crm.org/current/P98i_was_born",
+    "domain" : "thing1",
+    "range" : "thing1",
+    "cardinality" : 1
+  }, {
+    "id" : "property43",
+    "label" : {
+      "IRI-based" : "P30_transferred_custody_of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P30_transferred_custody_of",
+    "domain" : "thing1",
+    "range" : "thing1"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class4"
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "P5_consists_of",
+      "en" : "P5 consists of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P5_consists_of",
+    "comment" : {
+      "en" : "Scope note:\nThis property describes the decomposition of an E3 Condition State into discrete, subsidiary states.It is assumed that the sub-states into which the condition state is analysed form a logical whole - although the entire story may not be completely known – and that the sub-states are in fact constitutive of the general condition state. For example, a general condition state of “in ruins” may be decomposed\ninto the individual stages of decay.\nThis property is transitive\n\nExamples:\n- The Condition State of the ruined Parthenon (E3) consists of the bombarded state after the explosion of a Venetian shell in 1687 (E3)\n\nIn First Order Logic:\nP5(x,y) ? E3(x)\nP5(x,y) ? E3(y)"
+    },
+    "attributes" : [ "transitive" ],
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P5",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "class23",
+    "range" : "class23",
+    "inverse" : "property50"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class19"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class12"
+  }, {
+    "id" : "property50",
+    "label" : {
+      "IRI-based" : "P5i_forms_part_of"
+    },
+    "iri" : "http://erlangen-crm.org/current/P5i_forms_part_of",
+    "domain" : "class23",
+    "range" : "class23",
+    "inverse" : "property39"
+  }, {
+    "id" : "property60",
+    "label" : {
+      "IRI-based" : "P23i_surrendered_title_through",
+      "en" : "P23 surrendered title through"
+    },
+    "iri" : "http://erlangen-crm.org/current/P23i_surrendered_title_through",
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "P23i",
+        "type" : "label"
+      } ]
+    },
+    "domain" : "thing2",
+    "range" : "class24",
+    "inverse" : "property40",
+    "superproperty" : [ "property35" ]
+  } ]
+}

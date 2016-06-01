@@ -1,0 +1,9 @@
+/* Login Page */
+			.login .message {
+				background-color: #282828;
+				color:#e0e0e0;
+				border-left:none;
+			}
+			.login form {
+				background-color: #e0e0e0;
+			}

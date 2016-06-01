@@ -1,0 +1,527 @@
+/*
+Theme Name:     rockartdatabase_main
+Description:    The rock art database main theme
+Author:         admin
+Template:       twentytwelve
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../twentytwelve/style.css");
+
+/*-- FONTS --*/
+
+.main-navigation li {
+    margin: 0px 5px 0px 5px;
+}
+
+.page_item {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.main-navigation li a:visited {
+	color: #D3D3D3;
+	font-size: 10px;
+  	font-weight: normal !important;
+	text-transform: none;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+}
+
+.main-navigation li a:link {
+	color: #D3D3D3;
+	font-size: 10px;
+	font-weight: normal !important;
+	text-transform: none;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+}
+
+.main-navigation li a:hover {
+	color: #ffffff;
+	font-size: 10px;
+ 	font-weight: normal !important;
+	text-transform: none;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+}
+
+.main-navigation .current-menu-item li a:active {
+	color: #ffffff;
+	font-size: 10px;
+ 	font-weight: normal !important;
+	text-transform: none;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+}
+
+.entry-header .entry-title {
+	color: #D3D3D3;
+	font-size: 16px;
+	font-family: "Helvetica Neue" !important;
+	font-weight: lighter !important;
+	font-style:italic;
+}
+
+td.custom-post-title {
+	color: #D3D3D3;
+	font-size: 12px;
+	font-family: "Helvetica Neue" !important;
+	font-weight: lighter !important;
+	font-style:italic;
+	vertical-align:middle;
+}
+
+.searchform-label {
+	float: none;
+}
+
+.widget-title {
+	color:#eeeeee;
+}
+
+.widget-area .widget a:visited {
+    	color: #ffffff;
+}
+
+.widget-area .widget a:link {
+	color: #ffffff;
+}
+
+.widget-area .widget a:hover {
+	color: #e0e0e0;
+}
+
+.widget-area .widget a:active {
+	color: #e0e0e0;
+}
+
+/*-- Header --*/
+.site-header {
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px;
+}
+
+
+/*-- Navigation Menu --*/
+#site-navigation {
+ margin-top: 0px;
+ background-color:#111111;
+
+}
+
+.main-navigation {
+	padding: 0px 20px 0px 20px;
+        width:100%;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border-bottom: 0px solid #EDEDED;
+    border-top: 0px solid #EDEDED;
+}
+
+
+/*-- Sidebar Widget and Content Area --*/
+#secondary.widget-area {
+	width: 220px;
+}
+
+/*-- MOVE SIDEBAR FROM RIGHT TO THE LEFT --*/
+@media screen and (min-width: 600px) {
+    .site-content {
+        float: right;
+        width: 75%;
+    }
+.widget-area {
+        float: left;
+    }
+}
+
+/* for IE8 and IE7 ----------------*/
+.ie .site-content {
+    	float: right;
+    	width: 73%;
+}
+.ie .widget-area {
+    	float: left;
+}
+
+
+/*-- Advanced Search Button --*/
+.custom-search-button {
+	position: absolute; 
+	top:90px; 
+	right:0px;
+	font-size:12px;
+	font-family:Helvetica Neue;
+	font-weight:lighter;
+}
+
+
+/*-- Content Area --*/
+/*-- Full Screen TwentyTwelve Start --*/
+#main {
+	width: 100%; margin:0 auto;
+	margin: 0px 0px 0px 0px;
+} 
+
+#masthead {
+	background: <em>FULL-WIDTH-BG-COLOR</em>;
+}
+
+hgroup {
+	width: 100%; margin: 0 auto;
+}
+
+.main-navigation {
+	background: <em>FULL-WIDTH-NAV-BAR-COLOR</em>;
+}
+
+.nav-menu {
+	width: 100%; 
+	margin:0 auto;
+}
+
+.site {width: 100%; max-width: 100%
+}
+
+body {
+	background-color:#323232 !important;
+}
+body .site {    
+	padding: 0px 0px;
+        padding-top: 0px;
+        padding-right-value: 0px;
+        padding-bottom: 0px;
+        padding-left-value: 0px;
+}
+
+.site-content article {
+    margin: 0px 0px 0px 0px;	
+}
+
+/*-- Full Screen TwentyTwelve End --*/
+
+/*-- Entry Header --*/
+
+.entry-header {
+	margin-top: 36px !important;
+    	margin-bottom: 36px !important;
+	margin-left: 340px;
+}
+
+/*-- Floating Windows, Preview and Search --*/
+/*-- Floating Preview Window --*/
+.FixedHeightContainer-left {
+  	background-color:#323232;
+	position: absolute;
+  	top: 41px;
+  	left: 0px;
+  	height:894px;
+  	max-height:894px;
+  	min-width:400px;
+  	max-width:400px; 
+  	padding:0px; 
+  	overflow:hidden;
+  	overflow-y: scroll;
+	color: #D3D3D3;
+	font-size: 12px;
+	text-align: justify; 
+	line-height: 1.2;
+	z-index:2;
+}
+.Content-left {
+  	height:224px;
+  	overflow:hidden;
+}
+.custom-preview-content {
+	padding: 0px;
+}
+
+/*-- Floating Search Window --*/
+.FixedHeightContainer-right {
+  	position: absolute;;
+  	top: 127px;
+  	right: 0px;
+  	height:484px;
+  	max-height:484px;
+  	width:343px; 
+  	padding:0px; 
+  	overflow:hidden;
+  	overflow-y: scroll;
+  	background-image:url('wp-content/images/GOCHN_map_infopanel_right.png');
+	color: #D3D3D3;
+	font-size: 10px;
+	text-align: justify; 
+	line-height: 1.2;
+}
+.Content-right {
+  height:224px;
+  overflow:auto;
+}
+.custom-search-content {
+	padding: 20px 20px 20px 20px;
+}
+
+/*-- Search Form Tick Box Alignment and Size --*/
+.searchform-input-wrapper input[type='checkbox'] {
+    	width: 14px;
+}
+.searchform-input-wrapper {
+	width: 90%;
+}
+/*-- Search Form Map Icon Size--*/
+.symbol img {
+	height: 20px;
+}
+ul.gm-visible-list img {
+	height: 20px;
+}
+
+
+/*-- Image --*/
+.wp-post-image {
+	padding: 0px 0px 0px 0px;
+}
+
+
+/*-- Main Body Map Area --*/
+.custom-map-area {
+	background-color: #e0e0e0;
+}
+
+/*-- Main Body Child Preview Area --*/
+/*-- Main Body Child Preview Area Blank Space as Background --*/
+.custom-child-preview-area {
+	height:200px;
+}
+.custom-child-preview-area-searchpage {
+	height:250px;
+}
+/*-- Main Body Child Preview Call --*/
+.custom-child-call-area {
+	position:absolute; 
+	top:680px; 
+	left:0px; 
+	max-width:100%; 
+	max-height:200px; 
+	overflow:hidden;
+	overflow-x:scroll;
+}
+.custom-child-call-area-searchpage {
+	position:absolute; 
+	bottom:55px; 
+	left:0px; 
+	max-width:100%; 
+	max-height:250px; 
+	overflow:hidden;
+}
+
+/*-- Site --*/
+.site-content {
+	background-color:#323232;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.site-header {
+	background-color:#ffffff;
+
+}
+
+.main-navigation  {
+	background-color:#111111;
+}
+
+.wrapper {
+	background-color:#323232;
+	padding:0px 0px 0px 0px;
+}
+
+body .site {
+	margin-top: 0px;
+}
+
+textarea {
+	background-color:#eeeeee;
+}
+
+.wp-post-image {
+	padding:20px 0px 0px 0px;
+}
+
+
+/*-- Widget Area / Indent Parent and Child List --*/
+.page_item {
+	padding: 5px 0px 0px 10px;
+}
+
+/*-- Media Tab Image and Video Scroll Layout --*/
+div.custom-div-bg_1 {
+	background-color:#e0e0e0;
+	width:280px;
+	height:230px;
+	box-shadow: 5px 5px 2px #888888;
+	padding:5px;
+}
+img.custom-div-frame {
+	width:280px;
+	height:150px;
+}
+iframe {
+	width:280px;
+	height:150px;
+}
+div.custom-media-image { 
+	max-width:100%; 
+	max-height:100%; 
+	padding: 41px 10px 10px 10px;
+}
+
+
+/*-- TABLES AND LISTS --*/
+table.custom-table-style {
+	border: 0px solid #282828; 
+	font-size: 12px;
+	color: black;
+	width: 100%;
+}
+
+th.custom-th-style {
+	border: 0px solid black;
+	padding: 5px;
+}
+
+td.custom-td-bg_1 {
+	border: 0px solid #e0e0e0;
+	background-color:#eeeeee;
+	max-width: 100%;
+	padding: 7px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+td.custom-td-bg_2 {
+	border: 0px solid #eeeeee;
+	background-color: #e0e0e0; 
+	max-width: 100%;
+	padding: 7px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+td.custom-td-default-radb-page-left_1 {
+	border: 0px solid #e0e0e0;
+	background-color:#eeeeee;
+	max-width: 100%;
+        min-width:400px;
+	padding: 7px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+td.custom-td-default-radb-page-right_2 {
+	border: 0px solid #eeeeee;
+	background-color: #e0e0e0; 
+	max-width: 250px !important;
+	padding: 7px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+td.custom-site-logo {
+	padding: 0px 0px 0px 0px !important;
+	background-color: #282828 !important;
+	background-image: url('wp-content/images/rockartdatabase_logo.jpg');
+	background-repeat:no-repeat;
+	border:0px !important;
+	width:328px !important;
+	height:91px;
+}
+
+td {
+	vertical-align: top;
+}
+
+
+/*-- Search Function Style --*/
+.entry-content {
+	line-height: 14px;
+}
+
+.searchform-input-wrapper {
+	text-align: left;
+}
+
+
+
+/*-- FOOTER --*/
+footer[role="contentinfo"] {
+	background-color:#323232;
+	border-top; 0px;
+	width:100%;
+	padding: 0px 0px 14px 0px !important;
+	margin: 0px 0px 0px 0px;
+	border-top:none;
+	position:fixed;
+	bottom:0px;
+}
+
+body .site, footer[role="contentinfo"] { 
+	max-width: 100%; 
+}
+
+img.footer_logos {
+	vertical-align:bottom !important;
+	width:35px;
+	height:35px;
+}
+
+
+
+
+/*-- Tabs Start --*/
+.tabs {
+ 	position: relative;   
+  	min-height: 828px; /* This part sucks */
+	height: 828px;
+  	clear: both;
+  	margin: 15px 0;
+	z-index: 0;
+}
+.tab {
+  	float: left;
+}
+.tab label {
+  	background: #eee; 
+  	padding: 10px; 
+  	border: 1px solid #ccc; 
+  	margin-left: -1px; 
+  	position: relative;
+  	left: 1px; 
+}
+.tab [type=radio] {
+  	display: none;   
+}
+.tab-content {
+  	position: absolute;
+  	top: 28px;
+  	left: 0;
+  	background: #e0e0e0;
+  	right: 0;
+  	bottom: 0;
+  	padding: 0px;
+	height: 828px;
+	max-height: 828px;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+[type=radio]:checked ~ label {
+  	background: #e0e0e0;
+  	z-index: 2;
+}
+[type=radio]:checked ~ label ~ .tab-content {
+  	z-index: 1;
+}
+/*-- Tabs End --*/
+
